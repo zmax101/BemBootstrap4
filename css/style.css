@@ -32,7 +32,7 @@ ul, li {
     color: #444444;
 }
 /* шапка */
-.header >div {
+.header {
     color: white;
     text-align: center;
     padding: 180px 0;
@@ -57,25 +57,15 @@ ul, li {
             margin: 0 10px;
             color: white;
             transition: 0.3s;
-        }
-
-        .button_empty {
-            background: transparent;
-            border: 2px solid white;
-        }
-
-        .button_full {
             background: #00897b;
             border: 2px solid #00897b;
         }
 
-        .button_empty:hover,
-        .button_full:hover {
-            border: 2px dotted #00897b;
-            background: #004e4698;
+        .button:hover{
+            background: transparent;
+            border: 2px solid white;
             cursor: pointer;
         }
-
 /* о нас // about us */
 .about {
     padding-top: 120px;
