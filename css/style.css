@@ -73,6 +73,7 @@ ul, li {
         .button_full:hover {
             border: 2px dotted #00897b;
             background: #004e4698;
+            cursor: pointer;
         }
 
 /* о нас // about us */
@@ -100,4 +101,55 @@ ul, li {
     margin-bottom: 20px;
     font-size: 20px;
     font-family: 'Open Sans Semibold';
+}
+/* Наши услуги */
+.services {
+    padding-top: 170px;
+    padding-bottom: 125px;
+    color: black;
+    background: #e4fdf9;
+    text-align: center;
+}
+
+.our_card {
+    background: white;
+    padding: 50px 40px 45px;
+    transition: .4s;
+    margin-bottom: 30px;
+}
+
+.our_card:hover {
+    background: #00897b;
+    color: white;
+    box-shadow: 0px 10px 12px -3px rgba(0, 0, 0, .25);
+}
+
+.our_card:hover .icon {
+    color: white;
+}
+
+.our_card:hover .button-services {
+    border: 2px solid white;
+    color: white;
+}
+
+.icon {
+    transition: .4s;
+    font-size: 60px;
+    color: black;
+}
+
+.button-services {
+    transition: .4s;
+    color: black;
+    padding: 14px 12px 14px;
+    text-transform: uppercase;
+    border: 2px solid black;
+    background: transparent;
+    font-family: 'Open Sans Semibold';
+}
+
+
+.button-services:hover {
+    cursor: pointer;
 }
