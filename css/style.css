@@ -152,7 +152,8 @@ ul, li {
     padding-bottom: 135px;
 }
 
-.portfolio .button:hover {
+.portfolio button:hover,
+.focused {
     color: black;
     background: transparent;
     border: 2px solid #00897b;
@@ -164,4 +165,24 @@ ul, li {
 
 .filter {
     padding: 120px 0;
+}
+
+div[filter]:hover img {
+    filter: brightness(50%);
+    transition: .3s;
+}
+
+.text {
+    display: none;
+}
+
+div[filter]:hover .text {
+    display: block;
+    width: 100%;
+    color: white;
+    position: absolute;
+    top: 40%;
+    left: 0;
+    z-index: 3;
+    text-align: center;
 }
