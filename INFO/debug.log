@@ -3,3 +3,6 @@ C:\fakepath(57,8-58): warning X3571: pow(f, e) will not work for negative f, use
 C:\fakepath(65,8-28): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
 
 [0905/050810.039:ERROR:browser_gpu_channel_host_factory.cc(139)] Failed to launch GPU process.
+[0906/185205.367:INFO:CONSOLE(1)] "Long rAF frame-time", source: file:///C:/Program%20Files/Adobe/Adobe%20Photoshop%202020/Required/www-rich-tooltips/build/external.js (1)
+[0906/185205.475:ERROR:mf_helpers.cc(14)] Error in dxva_video_decode_accelerator_win.cc on line 1612
+[0906/185205.476:ERROR:mf_helpers.cc(14)] Error in dxva_video_decode_accelerator_win.cc on line 842
